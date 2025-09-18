@@ -1,0 +1,12 @@
+{
+  "name": "map-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev:app": "cd frontend && npx expo start --tunnel",
+    "dev:api": "cd backend && npm run dev",
+    "dev": "npm run dev:api"
+  }
+}
+
+
